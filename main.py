@@ -52,7 +52,7 @@ def work(n: int = 1):
     total = 0
     for i in range(n):
         total += 1  # pretend "work" — just counting
-    return {"email": YOUR_EMAIL, "done": total}
+    return {"email": "25f2007833@ds.study.iitm.ac.in", "done": total}
 
 # ---- Endpoint 2: /metrics ----
 @app.get("/metrics")
